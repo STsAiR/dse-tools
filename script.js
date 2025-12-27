@@ -331,7 +331,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Update countdown timer
 function updateCountdown() {
-  const examDate = new Date("2026-04-08T00:00:00").getTime(); // HKDSE exam date is April 8, 2026
+  const examDate = new Date("2026-04-09T08:30:00").getTime(); // HKDSE exam date is April 8, 2026
   const now = new Date().getTime();
   const distance = examDate - now;
 
